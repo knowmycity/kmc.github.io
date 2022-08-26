@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" herf="css/style.css">
+    <style>
+        .header {
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+
+        .middle {
+            width: 100%;
+            height: 10%;
+            background-color: powderblue;
+            border-radius: 8px;
+            font-family: verdana;
+            padding: 1%;
+        }
+
+        .tab {
+            width: 100%;
+            height: 8%;
+            font-family: arial;
+            padding: 0.5%;
+        }
+
+        .main {
+            width: 100%;
+            height: 90%;
+        }
+
+        .content {
+            width: 100%;
+            height: 200%;
+            border-radius: 2px;
+            padding: 5%;
+        }
+
+        .x {
+            display: inline;
+            padding: 10%;
+        }
+
+        .h {
+            text-decoration: none;
+        }
+
+        #mybtn {
+            display: none;
+            position: fixed;
+            bottom: 20px;
+            right: 30px;
+            z-index: 99;
+            font-size: 5px;
+            border: none;
+            outline: none;
+            background-color: green;
+            color: white;
+            cursor: pointer;
+            padding:15px; border-radius: 4px;
+        }
+
+        .m {
+            display: inline;
+        }
+
+        #icon {
+            display: inline;
+            fluid: center;
+        }
+
+        .k {
+            display: inline;
+        }
+
+            .gallery {
+            width: 100%;
+            height: 70%;
+            background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.3)),url(https://wallpapercave.com/wp/wp3629333.jpg);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="middle">
+            <div style="width:90%;float:left;">
+                <h1><b style="color:blue">k</b><b style="color:white">now<b style="color:blue">M</b><b>y</b><b style="color:blue">C</b><b>ity</b></h1>
+            </div>
+            <div style="width:10%" class="k">
+                <span class="fa-stack fa-lg" id="icon">
+                    <i class="fa fa-twitter fa-stack-1xfa-inverse" style="color:white;margin-right:10px;"></i>
+                    <i class="fa fa-whatsapp fa-stack-1xfa-inverse" style="color:white;margin-right:10px;"></i>
+                    <i class="fa fa-instagram fa-stack-1xfa-inverse" style="color:white;margin-right:10px;"></i>
+                    <i class="fa fa-facebook fa-stack-1xfa-inverse" style="color:white"></i>
+                </span>
+            </div>
+        </div>
+        <div class="tab">
+            <a href='index.html' button type="button" style="margin-right:300px;color:black" class="btn btn-outline-dark">HOME</a></button>
+            <a href='gallery.html' button type="button" style="margin-right:300px" class="btn btn-outline-dark">GALLERY</a></button>
+            <a href='mapping.html' button type="button" style="margin-right:300px" class="btn btn-outline-dark">ROUTE MAP</a></button>
+            <a href='about_us.html' button type="button" class="btn btn-outline-dark">ABOUT US</a></button>
+        </div>
+        <hr style="color:black" />
+        <div class="gallery">
+            <h1 style="font-size:70px;color:whitesmoke;font-family:Arial;">Gallery</h1>
+            <!-- Gallery -->
+            <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+                    <img src="https://i.pinimg.com/736x/59/08/0c/59080caf788b0ad3c671474023059202.jpg"
+                         class="w-100 shadow-1-strong rounded mb-4"
+                         alt="Boat on Calm Water" />
+
+                    <img src="https://images.unsplash.com/photo-1562545962-10c5ed5ed8c8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dmlzYWtoYXBhdG5hbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                         class="w-100 shadow-1-strong rounded mb-4"
+                         alt="Wintry Mountain Landscape" />
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="https://media.istockphoto.com/photos/vizag-city-picture-id1135794465?k=20&m=1135794465&s=170667a&w=0&h=pfDjPK0DGBRDL8VKVO_lrjacyINKFt239omBURgg8rM="
+                         class="w-100 shadow-1-strong rounded mb-4"
+                         alt="Mountains in the Clouds" />
+
+                    <img src="https://media.istockphoto.com/photos/lord-shiva-and-goddess-parvati-picture-id1207706862?b=1&k=20&m=1207706862&s=170667a&w=0&h=_ZFJGPZOtm6Bdr4l79S0RWTD0uF4gxCy33d5932SALk="
+                         class="w-100 shadow-1-strong rounded mb-4"
+                         alt="Boat on Calm Water" />
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img src="https://scontent.fvtz1-2.fna.fbcdn.net/v/t39.30808-6/261913075_3043297939265912_1053646140475041613_n.jpg?stp=dst-jpg_p180x540&_nc_cat=102&ccb=1-7&_nc_sid=730e14&_nc_ohc=Wg3JVmEWjTgAX-H49-z&_nc_ht=scontent.fvtz1-2.fna&oh=00_AT84mnsClkQTMY-50yxZ1P4udJ4oGRaeN_JpNU9xz93OJg&oe=630C175A"
+                         class="w-100 shadow-1-strong rounded mb-4"
+                         alt="Waves at Sea" />
+
+                    <img src="https://images.unsplash.com/photo-1605487564762-5e477c7d2bea?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8dmlzYWtoYXBhdG5hbXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
+                         class="w-100 shadow-1-strong rounded mb-4"
+                         alt="Yosemite National Park" />
+                </div>
+            </div>
+            <!-- Gallery -->
+        </div>
+        <div style="width:100%;height:2%;background-color:powderblue; color:darkslategrey;border-radius:8px;">
+            <p align="center" style='font-family:aerial'>copyrights KMC - 2022 </p>
+        </div>
+    </div>
+</body>
+</html>
